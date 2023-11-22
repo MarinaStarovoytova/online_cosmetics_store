@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/online_cosmetics_store/static/css/main.25608cd1.css",
+    "main.js": "/online_cosmetics_store/static/js/main.3104b18f.js",
+    "static/media/background.png": "/online_cosmetics_store/static/media/background.718d68f46fd5dbea5e5b.png",
+    "static/media/img.png": "/online_cosmetics_store/static/media/img.22a07d9d932e5eea419a.png",
+    "static/media/map.png": "/online_cosmetics_store/static/media/map.3dd815301ecf88e39765.png",
+    "static/media/imgForMainscreen.png": "/online_cosmetics_store/static/media/imgForMainscreen.d273014479e95f5b094e.png",
+    "static/media/imgForMainscreen1.png": "/online_cosmetics_store/static/media/imgForMainscreen1.6407ef5f15f2bfb481c4.png",
+    "static/media/img_3.png": "/online_cosmetics_store/static/media/img_3.1953df72758cf024e862.png",
+    "static/media/img_5.png": "/online_cosmetics_store/static/media/img_5.fbe8a8918f0106a0921a.png",
+    "static/media/img_2.png": "/online_cosmetics_store/static/media/img_2.63d9925cad535e0043fc.png",
+    "static/media/img_4.png": "/online_cosmetics_store/static/media/img_4.dbde06cc6d6a00747ab9.png",
+    "static/media/img_1.png": "/online_cosmetics_store/static/media/img_1.34f385434df79c218d2b.png",
+    "static/media/img_6.png": "/online_cosmetics_store/static/media/img_6.2cc462b700dc8d585d2e.png",
+    "static/media/high.png": "/online_cosmetics_store/static/media/high.1e2100ead6ad0e7e6c9b.png",
+    "static/media/rose.png": "/online_cosmetics_store/static/media/rose.69560b413087fd1f05fd.png",
+    "static/media/milk.png": "/online_cosmetics_store/static/media/milk.34205bf0ff16d676dcf5.png",
+    "static/media/rest.png": "/online_cosmetics_store/static/media/rest.8f4c9ad23b40e0675ae0.png",
+    "static/media/logo.svg": "/online_cosmetics_store/static/media/logo.acdc0d91e2907338f929f0cb0b4e7897.svg",
+    "static/media/basket.svg": "/online_cosmetics_store/static/media/basket.884c58f20a5237212538106e2e3757cd.svg",
+    "static/media/icon_account.svg": "/online_cosmetics_store/static/media/icon_account.f15a0732813cc75d655188d9bf1af1a9.svg",
+    "index.html": "/online_cosmetics_store/index.html",
+    "static/media/arrowL.svg": "/online_cosmetics_store/static/media/arrowL.68d79ce415d4f99a2c2c8d5129899490.svg",
+    "static/media/burger.svg": "/online_cosmetics_store/static/media/burger.44f316b4d5d672b65b250a1792170ea7.svg",
+    "static/media/iconArrow.svg": "/online_cosmetics_store/static/media/iconArrow.45949bf07865e64fba653f0c157d5b83.svg",
+    "main.25608cd1.css.map": "/online_cosmetics_store/static/css/main.25608cd1.css.map",
+    "main.3104b18f.js.map": "/online_cosmetics_store/static/js/main.3104b18f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.25608cd1.css",
+    "static/js/main.3104b18f.js"
+  ]
+}
