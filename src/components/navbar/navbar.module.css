@@ -1,0 +1,10 @@
+.menu {
+    display: flex;
+    column-gap: 35px;
+}
+
+@media (max-width: 990px) {
+    .nav_menu {
+        display: none;
+    }
+}

@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;500&family=Raleway:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'M PLUS 1p';
+    font-size: 16px;
+    color: #122947;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.wrapper_background {
+    background-image: url(images/header/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button {
+    border-radius: 2px;
+    border: 1px solid #b3bac1;
+    background-color: rgba(179, 186, 193, 0);
+    font-weight: 500;
+    line-height: 140%; /* 22.4px */
+    padding: 13px 27px;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: #FFF;
+    background-color: rgba(179, 186, 193, 0.8);
+}
+
+h2 {
+    font-family: 'Raleway';
+    font-size: 32px;
+    font-weight: 500;
+}
+
+h3 {
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 17px;
+}
+
+a:hover {
+    border-bottom: 1px solid rgba(179, 186, 193, 1);
+}
+
+@media (max-width: 1400px) and (min-width: 991px) {
+    
+}
+
+@media (max-width: 990px) and (min-width: 771px) {
+    
+}
+
+@media (max-width: 770px) {
+    
+}

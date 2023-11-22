@@ -1,0 +1,43 @@
+.background {
+    background: #F4F1ED;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.menu_dasboard {
+    display: flex;
+    column-gap: 51px;
+}
+
+.rights {
+    border-top: 1px solid #D1D1D1;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    color: #959595;
+    font-size: 12px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+@media (max-width: 1400px) and (min-width: 991px) {
+    
+}
+
+@media (max-width: 770px) {
+    .info {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}

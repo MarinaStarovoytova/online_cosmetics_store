@@ -1,0 +1,48 @@
+.subscription {
+    margin: 140px 0;
+}
+
+.block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    row-gap: 35px;
+    margin-left: 48px;
+}
+
+.img {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+@media (max-width: 1089px)  {
+    .img {
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .hide {
+        display: none;
+    }
+}
+
+@media (max-width: 770px)  {
+    .content {
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .content p {
+        text-align: center;
+    }
+
+    .img {
+        display: none;
+    }
+}
+

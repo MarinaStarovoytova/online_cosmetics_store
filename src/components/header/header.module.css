@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.menu_dasboard {
+    display: flex;
+    column-gap: 51px;
+}
+
+.dashboard {
+    display: flex;
+    column-gap: 30px;
+}
+
+@media (max-width: 1400px) and (min-width: 991px) {
+    .burger {
+        display: none;
+    }
+}
+
+@media (max-width: 990px) {
+    .burger {
+        display: block;
+    }
+}
+
