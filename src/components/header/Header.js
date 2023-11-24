@@ -6,6 +6,7 @@ import logo from './../../images/header/logo.svg'
 import Navbar from '../navbar/Navbar'
 import MainScreen from '../main_screen/MainScreen'
 import burger from './../../images/burger/burger.svg'
+import { Routes, Route, Link } from 'react-router-dom';
 
 function Header() {
     return (
@@ -13,9 +14,9 @@ function Header() {
             <header>
                 <div className='container'>
                     <div className={header.header}>
-                        <a className={header.burger} href='#!'><img src={burger} alt='Burger'/></a> 
+                        <a className={header.burger} href='#!'><img src={burger} alt='Burger' /></a>
                         <div className={header.logo}>
-                            <a href='#!' className={header.logo_link}><img src={logo} alt='logo' /></a>
+                            <Link to='/' className={header.logo_link}><img src={logo} alt='logo' /></Link>
                         </div>
                         <div className={header.menu_dasboard}>
                             <Navbar />
@@ -26,7 +27,9 @@ function Header() {
                         </div>
                     </div>
                 </div>
-                <MainScreen />
+                <Routes>
+                    <Route path='/' element={<MainScreen />}></Route>
+                </Routes>
             </header>
         </div>
     )

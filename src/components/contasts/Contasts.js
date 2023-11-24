@@ -4,7 +4,7 @@ import map from './../../images/main/contasts/map.png'
 
 function Contacts() {
     return (
-        <div className={contacts.contacts}>
+        <div className={contacts.contacts} id='contacts'>
             <div className='container'>
                 <div className={contacts.block}>
                     <div className={contacts.block_grey}>

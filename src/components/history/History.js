@@ -3,7 +3,7 @@ import history from './history.module.css'
 
 function History() {
   return (
-    <div className={history.history}>
+    <div className={history.history} id='history'>
       <div className={history.background}>
           <div className='container'>
               <div className={history.block}>
