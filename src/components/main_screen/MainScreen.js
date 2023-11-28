@@ -2,12 +2,19 @@ import React from 'react';
 import './main_screen.scss';
 import imgFace from './../../images/header/mainScreen/imgForMainscreen.png';
 import imgBody from './../../images/header/mainScreen/imgForMainscreen1.png';
-import iconArrow from './../../images/header/mainScreen/iconArrow.svg'
+// import iconArrow from './../../images/header/mainScreen/iconArrow.svg';
 import { Routes, Route, Link } from 'react-router-dom';
 import Catalog from '../../pages/catalog/Catalog';
+import ImageSlider from './ImageSlider';
 
 
 function MainScreen() {
+
+   const slider = [
+    { url: imgFace, alt: 'Face', text: 'Уход для лица'},
+    { url: imgBody, alt: 'Body', text: 'Уход для тела'}
+   ]
+
     return (
         <div className='container'>
 
@@ -20,12 +27,7 @@ function MainScreen() {
             <div className='main_screen'>
             
                 <div className='block'>
-                    <img src={imgFace} alt='Face' />
-                    
-                    <div className='block_dashboard'>
-                        <span>Уход для лица</span>
-                        <a href='#!'><img src={iconArrow} alt='Arrow' /></a>
-                    </div>
+                    <ImageSlider slider={slider} />
                 </div>
                
                 <div className='content'>
@@ -34,11 +36,8 @@ function MainScreen() {
                     <button className='button'><Link to="/catalog">Подробнее</Link></button>
                 </div>
                 <div className='block'>
-                    <img src={imgBody} alt='Body' />
-                    <div className='block_dashboard'>
-                        <span>Уход для тела</span>
-                        <a href='#!'><img src={iconArrow} alt='Arrow' /></a>
-                    </div>
+                <ImageSlider slider={slider} />
+                   
                 </div>
             </div>
             <Routes>

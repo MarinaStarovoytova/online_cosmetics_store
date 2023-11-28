@@ -35,6 +35,10 @@
     line-height: 145%; 
 }
 
+.link_next {
+    cursor: pointer;
+}
+
 @media (max-width: 1400px) {
     .content_media {
         display: none;
