@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/online_cosmetics_store/static/css/main.25608cd1.css",
-    "main.js": "/online_cosmetics_store/static/js/main.276f69d3.js",
+    "main.css": "/online_cosmetics_store/static/css/main.7a235b48.css",
+    "main.js": "/online_cosmetics_store/static/js/main.b8ca27a6.js",
     "static/media/background.png": "/online_cosmetics_store/static/media/background.718d68f46fd5dbea5e5b.png",
     "static/media/img.png": "/online_cosmetics_store/static/media/img.22a07d9d932e5eea419a.png",
     "static/media/map.png": "/online_cosmetics_store/static/media/map.3dd815301ecf88e39765.png",
@@ -24,11 +24,11 @@
     "static/media/arrowL.svg": "/online_cosmetics_store/static/media/arrowL.68d79ce415d4f99a2c2c8d5129899490.svg",
     "static/media/burger.svg": "/online_cosmetics_store/static/media/burger.44f316b4d5d672b65b250a1792170ea7.svg",
     "static/media/iconArrow.svg": "/online_cosmetics_store/static/media/iconArrow.45949bf07865e64fba653f0c157d5b83.svg",
-    "main.25608cd1.css.map": "/online_cosmetics_store/static/css/main.25608cd1.css.map",
-    "main.276f69d3.js.map": "/online_cosmetics_store/static/js/main.276f69d3.js.map"
+    "main.7a235b48.css.map": "/online_cosmetics_store/static/css/main.7a235b48.css.map",
+    "main.b8ca27a6.js.map": "/online_cosmetics_store/static/js/main.b8ca27a6.js.map"
   },
   "entrypoints": [
-    "static/css/main.25608cd1.css",
-    "static/js/main.276f69d3.js"
+    "static/css/main.7a235b48.css",
+    "static/js/main.b8ca27a6.js"
   ]
 }
